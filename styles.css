@@ -1,3 +1,17 @@
+h1 {
+    font-size: 4em;
+    text-align: center;
+    filter: blur(2px);
+}
+
+h1 strong:first-child {
+    color: #efb762;
+}
+
+h1 strong:last-child {
+    color: #4d0f00;
+}
+
 .canvas {
     width: 500px;
     height: 600px;
